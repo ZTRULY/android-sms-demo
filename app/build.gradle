@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    //avoscloud-sdk 为 LeanCloud基础包
-    compile 'cn.leancloud.android:avoscloud-sdk:v2.7+'
+    // LeanCloud 基础包
+    compile ('cn.leancloud.android:avoscloud-sdk:v3.+')
 }
