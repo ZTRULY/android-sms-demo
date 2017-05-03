@@ -6,13 +6,13 @@
 
 ## 安装
 导入 LeanCloud SDK，
-同时注意 App.java
+然后在 android-sms-demo/app/src/main/java/com/avos/sms/App.java 里把 xxx 换成你自己的 App ID 和 App Key。
 ```java
 public class App extends Application{
   public void onCreate() {
     // 请用你的 AppId，AppKey。并在管理台启用手机号码短信验证
-    AVOSCloud.initialize(this, "",
-        "");
+    AVOSCloud.initialize(this, "xxx",
+        "xxx");
   }
 }
 ```
